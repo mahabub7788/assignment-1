@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Epilogue&family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.font-merriweather {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.hero {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./assets/hero-banner.png");
+  width: 100%;
+  height: 100%;
+  padding: 150px 0px 150px 0px;
+  color: white;
+  border-radius: 20px;
+}
+
+.hero div > h6 {
+  font-size: 28px;
+}
+.hero div > h3 {
+  font-size: 58px;
+  text-align: center;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+section {
+  margin: 150px 0px 150px 0px;
+}
+
+.promotion,
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promotion h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.promotion div {
+  gap: 10px;
+}
+
+.promotion div > p {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+.promotion div > h4 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+img {
+  width: 100%;
+}
+
+.midnight {
+  background-image: url("./assets/midnight.png");
+  width: 100%;
+  height: 100%;
+  padding: 150px 0px 150px 80px;
+  color: white;
+  border-radius: 20px;
+}
+
+.midnight div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.midnight div h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 77px;
+  letter-spacing: 7.04px;
+}
+
+.midnight div p {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 600px;
+  text-align: start;
+}
+.midnight div button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

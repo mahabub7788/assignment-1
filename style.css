@@ -19,7 +19,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 50px 50px 0px 50px;
 }
 
 .hero {
@@ -51,11 +51,11 @@ section {
   margin: 150px 0px 150px 0px;
 }
 
-.promotion,
-div {
+.promotion {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .promotion h2 {
@@ -213,4 +213,168 @@ img {
 .section_five div:last-child > img {
   width: 140px;
   height: 140px;
+}
+
+.discount > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.discount div span {
+  color: #070211;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.discount div h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+}
+.discount div h2 span {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+}
+.discount div h2 p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 700px;
+  width: 100%;
+}
+
+.portfolio div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.portfolio div:first-child span {
+  color: #f00;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.portfolio div:first-child h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+}
+.portfolio div:first-child p {
+  color: rgba(7, 2, 17, 0.6);
+}
+.portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.portfolio-wrapper div {
+  width: 30.3333333333%;
+}
+
+.newsletter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  gap: 20px;
+}
+.newsletter img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.newsletter h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.newsletter p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-weight: 400;
+}
+.newsletter form {
+  display: flex;
+  justify-content: center;
+}
+.newsletter form input {
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  outline: none;
+  border: none;
+  padding: 20px 16px;
+}
+.newsletter form button {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  outline: none;
+  border: none;
+  padding: 20px 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+footer {
+  padding: 50px;
+  background: #000;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer div:last-child,
+footer div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.social img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+footer hr {
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.links div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.links div img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
